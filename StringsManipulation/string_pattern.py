@@ -1,5 +1,4 @@
 from os import system as ss
-from pprint import pprint
 
 ss("clear")
 
