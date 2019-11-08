@@ -24,9 +24,11 @@ def create_mat(height, width) -> list:
     return mat
 
 
-N, M = map(int, input().split(" "))
-for line in create_mat(N, M):
-    print(line)
+if __name__ == "__main__":
+    N, M = map(int, input().split(" "))
+    for line in create_mat(N, M):
+        print(line)
+
 
 """
 MAT is N x M of size, being M = 3 * N
